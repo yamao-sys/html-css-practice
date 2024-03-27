@@ -28,6 +28,18 @@ https://zenn.dev/moneyforward/articles/075a74334ca512
 		- スタイルの肥大化を防げる
 			- 要素ごとに個別のmarginを指定する必要がなくなることで、スタイルの肥大化を防ぐことができる
 
+## box-sizing
+widthとheightにpadding, borderを含めるかどうかの設定。
+レスポンシブ対応で必須？な設定。
+参考: https://zero-plus.io/media/box-sizing/
+
+・content-box(デフォルト値): widthとheightにpadding, borderを含めず
+・border-box: widthとheightにpadding, borderを含める
+・inherit: 親要素の設定を受け継ぐ
+
+同じwidthとheightに設定しても、content-boxとborder-boxとでは見え方が異なる。
+特にSPで表示する際に顕著で、content-boxよりもborder-boxの方が膨張せずに見やすくなる。
+
 ## block/inline/inline-block
 ・要素に幅や高さを持たせられる(block)
 ・自動的に横並びにする(inline)
