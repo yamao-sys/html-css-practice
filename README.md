@@ -27,6 +27,8 @@ https://zenn.dev/moneyforward/articles/075a74334ca512
 			- 新しい要素を追加する際も、個別にmarginを指定する必要がないため、スペースの追加漏れが起こりにくくなる
 		- スタイルの肥大化を防げる
 			- 要素ごとに個別のmarginを指定する必要がなくなることで、スタイルの肥大化を防ぐことができる
+## 詳細度
+https://qiita.com/ryokkkke/items/ec1ca2baebe4a984f7a6
 
 ## box-sizing
 widthとheightにpadding, borderを含めるかどうかの設定。
